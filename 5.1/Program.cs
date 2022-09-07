@@ -11,7 +11,7 @@ FibonacciArray(firstNumber,secondNumber,N,0);
 int[] FibonacciArray(int A, int B, int C, int D)
 {
     int[] array = new int[C];
-    for(D = 0; D < C; D++)
+    for(D = 0; D < array.Length; D++)
     {
         array[D] = A + B;
         Console.WriteLine(array[D]);
